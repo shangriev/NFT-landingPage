@@ -1,0 +1,532 @@
+body {
+    background: #FCFAFF;;
+    height: 100%;
+    margin: 0 auto;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F8E0FB;
+}
+
+.navHeader a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    margin-right: 32px;
+    white-space: nowrap;
+}
+
+.navHeader a:hover {
+    color: rgb(87, 87, 87);
+    opacity: 1;
+}
+
+header img {
+    width: 151px;
+    height: 40px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.headerNavLeft {
+    margin: 28px 70px;
+}
+
+.headerNavRight {
+    margin: 28px 70px;
+}
+
+
+.info_sell {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+}
+
+.info_sell_bg {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 125px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+    z-index: -1;
+}
+
+.info_sell h1{
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: -5px 5px 0px #ffffff;
+    margin: 0 auto;
+    margin-top: 117px;
+    margin-bottom: 32px;
+}
+
+.info_sell p {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    color: #532C59;
+    margin-bottom: 32px;
+}
+
+
+.info_sell button {
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 700;
+    width: 114px;
+    height: 52px;
+    background: #532C59;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: background 0.2s linear;
+    margin-bottom: 83px;
+    white-space: nowrap;
+}
+
+
+.info_sell button:hover {
+    background: #421e48;
+    cursor: pointer;
+    transition: background 0.2s linear;
+}
+
+.isellImg1 {
+    position: absolute;
+    top: 47px;
+    left: 67px;
+}
+
+.isellImg2 {
+    position: absolute;
+    top: 47px;
+    right: 156px;
+}
+
+.isellImg3 {
+    position: absolute;
+    bottom: -63px;
+    left: 47px;
+}
+
+.isellImg4 {
+    position: absolute;
+    bottom: -49px;
+    right: 67px;
+}
+
+.brands {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 170px;
+    height: 40px;
+
+}
+
+.brands img {
+    margin-right: 40px;
+}
+
+.team {
+    text-align: center;
+    padding: 1px;
+}
+
+.team h1 {
+    font-family: 'Syne';
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.team_info {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    color: #532C59;
+    margin-top: 24px;
+}
+
+.team_authors {
+    margin-top: 80px;
+}
+
+.team_name {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.team_avatar {
+    margin-bottom: 12px;
+}
+
+.team_spec {
+    margin-top: 12px;
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    color: #532C59;
+}
+
+.team_authors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.team_block {
+    width: 301px;
+}
+
+
+.information h1 {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.information p {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-bottom: 64px;
+}
+
+.collection_image {
+    margin-bottom: 16px;
+    width: 412px;
+    margin-right: 32px;
+}
+
+.collection_holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.collection_name {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+.collection_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
+
+.info_title {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.info_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
+
+.info_holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 184px;
+    flex-wrap: wrap;
+}
+
+.feedback_cards {
+    margin-top: 80px;
+    margin-right: 32px;
+}
+
+.feedback_sections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 301px;
+    text-align: center;
+    margin-right: 32px;
+}
+
+.card img {
+    margin-bottom: 16px;
+}
+
+.feeduser {
+    margin-left: 8px;
+}
+
+.feedcard {
+    padding: 24px;
+    width: 412px;
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.feed_holder {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.username {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.userlink {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: -18px;
+}
+
+.feedback_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 114px;
+}
+
+.faq_holder {
+    margin-right: 32px;
+}
+
+.faq_cards {
+    margin-right: 32px;
+}
+
+.faq_title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.faq_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+    padding-bottom: 32px;
+}
+
+.faq_card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    width: 412px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.faq_card_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.faq_image {
+    position: absolute;
+    left: 91.33%;
+    top: 24.08%;
+    cursor: pointer;
+}
+
+.faq_open_card_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+    margin-top: 12px;
+}
+
+.faq_card_bn {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    width: 412px;
+    border: 1px solid #d6bcfa00;
+    border-radius: 15px;
+}
+
+
+.end {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.end_sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1300px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+    margin-right: 32px;
+}
+
+.end_title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.end_description {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-bottom: 32px;
+}
+
+.end_sell button {
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 700;
+    width: 156px;
+    height: 52px;
+    background: #532C59;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    transition: background 0.2s linear;
+    white-space: nowrap;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+
+.footer_block a {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    margin-right: 24px;
+}
+
+.footer_copyright {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin: auto 70px;
+    padding: 40px 0px;
+    border-top: 1px solid #CCD5DF;;
+}
